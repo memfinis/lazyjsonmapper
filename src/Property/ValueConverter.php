@@ -150,6 +150,7 @@ class ValueConverter
             // Subtract 1 from the remaining array-depth and process current layer.
             $newRemArrayDepth = $remArrayDepth - 1;
             $nextValidKey = 0; // Must start at 0.
+            $simpleArray = array_values($value); // Convert to simple array
             foreach ($value as $k => &$v) { // IMPORTANT: By reference!
                 // OPTIMIZATION: We MUST only allow sequential int keys, but we
                 // avoid the is_int() call by using an int counter instead:
