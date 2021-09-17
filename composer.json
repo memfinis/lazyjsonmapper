@@ -1,9 +1,9 @@
 {
-    "name": "lazyjsonmapper/lazyjsonmapper",
+    "name": "memfinis/lazyjsonmapper",
     "type": "library",
     "description": "Advanced, intelligent & automatic object-oriented JSON containers for PHP.",
     "keywords": ["json", "development"],
-    "homepage": "https://github.com/SteveJobzniak/LazyJsonMapper",
+    "homepage": "https://github.com/memfinis/LazyJsonMapper",
     "license": "Apache-2.0",
     "authors": [
         {
