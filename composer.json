@@ -20,9 +20,6 @@
         "phpunit/phpunit": "6.*",
         "friendsofphp/php-cs-fixer": "^2.7.1"
     },
-    "bin": [
-        "bin/lazydoctor"
-    ],
     "autoload": {
         "psr-4": {
             "LazyJsonMapper\\": "src/"
