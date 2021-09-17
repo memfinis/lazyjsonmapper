@@ -154,6 +154,7 @@ class ValueConverter
             foreach ($simpleArray as $k => &$v) { // IMPORTANT: By reference!
                 // OPTIMIZATION: We MUST only allow sequential int keys, but we
                 // avoid the is_int() call by using an int counter instead:
+                /*
                 if ($k !== $nextValidKey++) { // ++ post increment...
                     // We're in an "array of"-typed JSON property structure, but
                     // encountered either an associative key or a gap in the
@@ -174,6 +175,7 @@ class ValueConverter
                         ));
                     }
                 }
+                */
 
                 // The key was valid, so convert() any sub-values within this
                 // value. Its next depth is either 0 (values) or 1+ (more arrays).
